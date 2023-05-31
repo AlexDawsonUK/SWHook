@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Semantic Web Hook - A Useful Microdata Framework</title>
+		<meta name="description" content="You provide the semantics, we provides the interactivity. Turn data intended for search engines and social networks into useful functionality for visitors.">
+		<link rel="preload" as="font" type="font/woff2" crossorigin href="cache/fonts/TitilliumWeb-Regular.woff2">
+		<link rel="preload" as="font" type="font/woff2" crossorigin href="cache/fonts/TitilliumWeb-Italic.woff2">
+		<link rel="stylesheet" href="cache/style.css">
+		<link rel="author" type="text/plain" href="humans.txt">
+		<meta name="referrer" content="no-referrer">
+		<meta name="apple-mobile-web-app-title" content="SWHook">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/svg+xml" href="images/icon.svg">
+		<link rel="manifest" href="site.webmanifest">
+		<meta name="msapplication-config" content="browserconfig.xml">
+		<meta name="theme-color" content="#239A55">
+		<meta name="msapplication-config" content="browserconfig.xml">
+		<meta property="og:title" content="Semantic Web Hook">
+		<meta property="og:description" content="You provide the semantics, we provides the interactivity. Turn data intended for search engines and social networks into useful functionality for visitors.">
+		<meta property="og:type" content="website">
+		<meta property="og:locale" content="en_us">
+		<meta property="og:url" content="https://swhook.com/">
+		<meta property="og:image" content="images/banner.png">
+		<meta property="og:image:alt" content="Logo">
+		<script async src="cache/script.js"></script>
+		<script type="application/ld+json">
+		{
+			"@context" : "https://schema.org",
+			"@type" : "WebSite",
+			"name": "Semantic Web Hook",
+			"url": "https://swhook.com/"
+		}
+		</script>
+	</head>
+	<body class="body">
+		<header class="header">
+			<h1 class="logo"><a class="logo-txt" href="#"><svg class="logo-img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 64 64"><path d="M55 24l8-8-8-8H37V3c0-1.6-1.4-3-3-3h-2c-1.6 0-3 1.4-3 3v5H9v16h20v4H7l-6 6 6 6h22v24h8V40h16V28H37v-4h18z"/></svg>Semantic Web Hook</a></h1>
+			<nav class="nav"><ul class="menu" role="list">
+				<li><a class="nav-item" href="#">Home</a></li>
+				<li><a class="nav-item" href="#download">Download</a></li>
+				<li><a class="nav-item" href="#usage">Usage</a></li>
+				<li><a class="nav-item" href="#features">Features</a></li>
+			</ul></nav>
+			<h2 class="headline">A feature rich Semantic Web User-Experience framework.</h2>
+			<ul class="features">
+				<li class="added"><a class="feature" href="#html5">HTML5 Elements</a></li>
+				<li class="added"><a class="feature" href="#html5">MIME Type Helper</a></li>
+				<li class="added"><a class="feature" href="#html5">Pseudo Protocols</a></li>
+				<li class="added"><a class="feature" href="#html5">Head Links (Detection)</a></li>
+				<li class="added"><a class="feature" href="#html5">META Tags (Extensions)</a></li>
+				<li class="added"><a class="feature" href="#html5">DublinCore Metadata</a></li>
+				<li class="added"><a class="feature" href="#html5">OpenGraph &amp; TwitterCards</a></li>
+				<li class="added"><a class="feature" href="#microformats">Microformats v1 &amp; v2</a></li>
+				<li class="added"><a class="feature" href="#sdata">Structured Data</a></li>
+				<li class="added"><a class="feature" href="#external">RDFa (DCMI &amp; FOAF)</a></li>
+				<li class="added"><a class="feature" href="#external">Geo (HTML / KML / RDF)</a></li>
+				<li class="added"><a class="feature" href="#external">And lots more...</a></li>
+			</ul>
+		</header>
+		<main class="main">
+			<h3 class="heading">Overview</h3>
+			<p class="txt">SWHook is a simple, dependency free Microdata JavaScript framework. It turns semantic information embedded within the page into useful functionality for end-users. Once added to a website, this automated library will sniff markup on the fly for compatible microdata and transform it into a useful browser-based format for your visitors. This library adds no bloat, it just enhances what's there on the Semantic Web!</p>
+			<h3 class="heading" id="download">Download</h3>
+			<p class="txt">You can source the framework from the NPM registry using the following command:</p>
+			<pre class="syntax"><code><span class="g">npm install swhook</span></code></pre>
+			<p class="txt">If you prefer to self-host the framework, you can download the library below:</p>
+			<ul class="button" role="list">
+				<li><a class="download" download href="cache/swhook.js">Complete <span class="ver">Version 0.5.2</span></a></li>
+				<li><a class="download" download href="cache/swhook.min.js">Minified <span class="ver">Version 0.5.2</span></a></li>
+				<li><a class="download" download href="https://www.npmjs.com/package/swhook">NPM <span class="ver">Version 0.5.2</span></a></li>
+				<li><a class="download" href="https://github.com/AlexDawsonUK/SWHook">GitHub <span class="ver">Version 0.5.2</span></a></li>
+			</ul>
+			<p class="txt">If you'd like to request a copy of the complete source code (with comments), use this:</p>
+			<pre class="syntax"><code><span class="g">&lt;script </span><span class="r">defer src="</span><span class="a">https://swhook.com/cache/swhook.js</span><span class="r">"</span><span class="g">&gt;&lt;/script&gt;</span></code></pre>
+			<p class="txt">If you'd prefer to directly link to a CDN hosted copy of the library for inclusion, use this:</p>
+			<pre class="syntax"><code><span class="g">&lt;script </span><span class="r">defer src="</span><span class="a">https://swhook.com/cache/swhook-min.js</span><span class="r">"</span><span class="g">&gt;&lt;/script&gt;</span></code></pre>
+			<h3 class="heading" id="usage">Usage</h3>
+			<p class="txt">You'll need to include the library within the footer of each page (above the closing HTML tag). The framework will get new features along with updates and bug patches; so if you find issues, or a form of metadata currently unsupported; drop me an <a class="link" href="mailto:support@hitechy.com?subject=Modify">email</a> and I'll try and get it fixed / included in the next release cycle.</p>
+			<h4 class="subheading">Install</h4>
+			<p class="txt">Add a reference to the library at the body base of your page:</p>
+			<pre class="syntax"><code><span class="g">&lt;script </span><span class="r">defer src="</span><span class="a">swhook-min.js</span><span class="r">"</span><span class="g">&gt;&lt;/script&gt;</span></code></pre>
+			<h3 class="heading" id="features">Features</h3>
+			<p class="txt">Below is a complete list of the API's, Web standards and Semantic Web Microdata formats that SWHook supports. Within each format I've provided a list of the elements supported and various methods or variables offered. The data-meta attribute lets you change the service visitors will navigate too. Aside from that, file formats identify what semantic data can export to and other features will have their own unique capabilities.</p>
+			<h4 class="subheading" id="html5">HTML5 Elements</h4>
+			<ul>
+				<li class="list">&lt;a&gt;<ul>
+					<li>MIME Type Helper</li>
+					<li>Pseudo Protoocol Worker</li></ul></li>
+				<li class="list">&lt;abbr&gt;<ul>
+					<li>data-meta="wiktionary"</li>
+					<li>data-meta="lexico"</li>
+					<li>data-meta="merriam-webster"</li>
+					<li>data-meta="cambridge"</li>
+					<li>data-meta="macmillan"</li></ul></li>
+				<li class="list">&lt;address&gt;<ul>
+					<li>vCard.vcf</li></ul></li>
+				<li class="list">&lt;blockquote&gt;, &lt;cite&gt; &amp; &lt;q&gt;<ul>
+					<li>Url Detection</li></ul></li>
+				<li class="list">&lt;code&gt;<ul>
+					<li>Clipboard Copy</li>
+					<li>data-meta="codepen"</li>
+					<li>data-meta="jsfiddle"</li>
+					<li>data-meta="dabblet"</li>
+					<li>data-meta="jsbin"</li>
+					<li>data-meta="liveweave"</li></ul></li>
+				<li class="list">&lt;html&gt; (Lang)<ul>
+					<li>data-meta="g-translate"</li>
+					<li>data-meta="yandex"</li></ul></li>
+				<li class="list">&lt;link&gt; (Author, Feed, License, Podcast)<ul>
+					<li>Url Detection</li>
+					<li>humans.txt</li>
+					<li>change.log, version.txt &amp; history.txt</li>
+					<li>Feed MIME Type Helper</li>
+					<li>Podcatcher Identifier</li>
+					<li>License Identifier</li>
+					<li>Navigation Mapper</li></ul></li>
+				<li class="list">&lt;meta&gt; (META, DCMI, OpenGraph, Twitter, Geo)<ul>
+					<li>Url Detection</li>
+					<li>Clipboard Copy</li>
+					<li>vCard.vcf</li>
+					<li>Event.ics</li>
+					<li>Citations (Chicago)</li>
+					<li>License Identifier</li>
+					<li>Lang Identifier</li>
+					<li>Book Identifier</li>
+					<li>Geo Identifier</li></ul></li>
+				<li class="list">&lt;time&gt;<ul>
+					<li>Event.ics</li></ul></li>
+			</ul>
+			<h4 class="subheading" id="microformats">Microformats v1-2</h4>
+			<ul>
+				<li class="list">adr, h-adr, geo, h-geo<ul>
+					<li>data-meta="g-maps"</li>
+					<li>data-meta="apple-maps"</li>
+					<li>data-meta="openstreetmaps"</li>
+					<li>data-meta="bing-maps"</li>
+					<li>data-meta="wego-here"</li></ul></li>
+				<li class="list">rel Attribute<ul>
+					<li>Author, Payment &amp; Sponsored</li>
+					<li>License Identifier</li>
+					<li>NoFollow &amp; UGC Detection</li></ul></li>
+				<li class="list">hCalendar, h-event<ul>
+					<li>Event.ics</li></ul></li>
+				<li class="list">hCard, h-card<ul>
+					<li>vCard.vcf</li></ul></li>
+				<li class="list">hProduct, h-product<ul>
+					<li>data-meta="google"</li>
+					<li>data-meta="duckduckgo"</li>
+					<li>data-meta="bing"</li>
+					<li>data-meta="swisscows"</li>
+					<li>data-meta="quant"</li></ul></li>
+				<li class="list">hRecipe, h-recipe<ul>
+					<li>Clipboard Copy</li>
+					<li>data-meta="paprika"</li>
+					<li>data-meta="bigoven"</li>
+					<li>data-meta="yummly"</li>
+					<li>data-meta="allrecipes"</li>
+					<li>data-meta="mycookbook"</li></ul></li>
+			</ul>
+			<h4 class="subheading" id="sdata"><a class="link" href="microdata.txt">Structured Data</a></h4>
+			<ul>
+				<li class="list">Audiobook<ul>
+					<li>data-meta="audible"</li>
+					<li>data-meta="google"</li>
+					<li>data-meta="kobo"</li>
+					<li>data-meta="downpour"</li></ul></li>
+				<li class="list">Book<ul>
+					<li>data-meta="amazon"</li>
+					<li>data-meta="barnesandnoble"</li>
+					<li>data-meta="apple"</li>
+					<li>data-meta="worldofbooks"</li>
+					<li>data-meta="alibris"</li>
+					<li>data-meta="google"</li>
+					<li>data-meta="ebay"</li></ul></li>
+				<li class="list">Branding<ul>
+					<li>Url Detection</li></ul></li>
+				<li class="list">Broadcast<ul>
+					<li>Channel Helper</li></ul></li>
+				<li class="list">Comic<ul>
+					<li>data-meta="gcd"</li>
+					<li>data-meta="google"</li></ul></li>
+				<li class="list">Define<ul>
+					<li>data-meta="wiktionary"</li>
+					<li>data-meta="lexico"</li>
+					<li>data-meta="merriam-webster"</li>
+					<li>data-meta="cambridge"</li>
+					<li>data-meta="macmillan"</li></ul></li>
+				<li class="list">Email<ul>
+					<li>mailto:</li></ul></li>
+				<li class="list">Event<ul>
+					<li>Event.ics</li></ul></li>
+				<li class="list">Game<ul>
+					<li>data-meta="ign"</li>
+					<li>data-meta="gamespot"</li>
+					<li>data-meta="boardgamegeek"</li>
+					<li>data-meta="google"</li>
+					<li>data-meta="ebay"</li></ul></li>
+				<li class="list">General<ul>
+					<li>data-meta="google"</li>
+					<li>data-meta="duckduckgo"</li>
+					<li>data-meta="bing"</li>
+					<li>data-meta="swisscows"</li>
+					<li>data-meta="quant"</li></ul></li>
+				<li class="list">Maps<ul>
+					<li>data-meta="g-maps"</li>
+					<li>data-meta="apple-maps"</li>
+					<li>data-meta="openstreetmaps"</li>
+					<li>data-meta="bing-maps"</li>
+					<li>data-meta="wego-here"</li></ul></li>
+				<li class="list">Media<ul>
+					<li>data-meta="imdb"</li>
+					<li>data-meta="tmdb"</li>
+					<li>data-meta="rt"</li></ul></li>
+				<li class="list">Movie<ul>
+					<li>data-meta="amazon"</li>
+					<li>data-meta="netflix"</li>
+					<li>data-meta="google"</li>
+					<li>data-meta="itunes"</li>
+					<li>data-meta="ebay"</li></ul></li>
+				<li class="list">Music<ul>
+					<li>data-meta="spotify"</li>
+					<li>data-meta="itunes"</li>
+					<li>data-meta="amazon"</li>
+					<li>data-meta="youtube"</li>
+					<li>data-meta="ebay"</li></ul></li>
+				<li class="list">Organization<ul>
+					<li>vCard.vcf</li></ul></li>
+				<li class="list">Radio<ul>
+					<li>data-meta="rss"</li>
+					<li>data-meta="itunes"</li>
+					<li>data-meta="spotify"</li>
+					<li>data-meta="g-play"</li>
+					<li>data-meta="android"</li></ul></li>
+				<li class="list">Recipe<ul>
+					<li>data-meta="paprika"</li>
+					<li>data-meta="bigoven"</li>
+					<li>data-meta="yummly"</li>
+					<li>data-meta="allrecipes"</li>
+					<li>data-meta="mycookbook"</li></ul></li>
+				<li class="list">Source<ul>
+					<li>data-meta="codepen"</li>
+					<li>data-meta="jsfiddle"</li>
+					<li>data-meta="dabblet"</li>
+					<li>data-meta="jsbin"</li>
+					<li>data-meta="liveweave"</li></ul></li>
+				<li class="list">Subscription<ul>
+					<li>data-meta="amazon"</li>
+					<li>data-meta="google"</li>
+					<li>data-meta="apple"</li>
+					<li>data-meta="spotify"</li>
+					<li>data-meta="netflix"</li></ul></li>
+			</ul>
+			<h4 class="subheading" id="external">External Formats</h4>
+			<ul>
+				<li class="list">DCMI / FOAF (RDF)<ul>
+					<li>vCard.vcf</li></ul></li>
+				<li class="list">Geo (KML/RDF)<ul>
+					<li>data-meta="g-maps"</li>
+					<li>data-meta="apple-maps"</li>
+					<li>data-meta="openstreetmaps"</li>
+					<li>data-meta="bing-maps"</li>
+					<li>data-meta="wego-here"</li></ul></li>
+			</ul>
+		</main>
+		<footer class="footer">
+			<p class="copyright">Copyright, <span class="year">2023</span></p>
+			<p class="build">Built by <a class="link" href="https://alexanderdawson.com">Alex Dawson</a>.</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+{
+	"short_name": "SWHook",
+	"name": "Semantic Web Hook",
+	"start_url": "https://swhook.com",
+	"description": "You provide the semantics, we provides the interactivity. Turn data intended for search engines and social networks into useful functionality for visitors.",
+	"icons": [
+		{
+			"src": "images/droidx192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "images/droidx512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#239A55",
+	"background_color": "#ffffff",
+	"display": "standalone"
+}

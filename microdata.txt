@@ -1,0 +1,62 @@
+/* --------------------------- */
+/* Semantic Web Hook Microdata */
+/* --------------------------- */
+
+Below you'll find a complete list of the schema API's supported by this framework.
+
+/* Audiobook */
+Audiobook, AudiobookFormat
+
+/* Book */
+Book, BookSeries, EBook, GraphicNovel, Hardcover, Paperback, ShortStory
+
+/* Branding */
+Barcode, Brand, DiscussionForumPosting, MobileApplication, Recommendation, SocialMediaPosting, SoftwareApplication, WebApplication
+
+/* Broadcast */
+AMRadioChannel, BroadcastChannel, BroadcastService, FMRadioChannel, RadioBroadcastService, RadioChannel, CableOrSatelliteService, TelevisionChannel
+
+/* Comic */
+ComicIssue, ComicStory, ComicSeries
+
+/* Define */
+DefinedTerm
+
+/* Email */
+EmailMessage, Message
+
+/* Event */
+AggregateOffer, BoatReservation, BoatTrip, BroadcastEvent, BusinessEvent, BusReservation, BusTrip, ChildrensEvent, ComedyEvent, Course, CourseInstance, CreativeWorkSeason, DanceEvent, DeliveryEvent, DiagnosticProcedure, DoseSchedule, EducationEvent, Event, EventCancelled, EventPostponed, EventRescheduled, EventReservation, EventScheduled, EventSeries, ExhibitionEvent, Festival, Flight, FlightReservation, FoodEstablishmentReservation, FoodEvent, LiteraryEvent, LodgingReservation, MedicalProcedure, MerchantReturnPolicy, MusicEvent, Offer, OnDemandEvent, OpeningHoursSpecification, Project, PublicationEvent, RadioSeason, RentalCarReservation, ResearchProject, Reservation, ReservationPackage, SaleEvent, Seat, Schedule, ScreeningEvent, SocialEvent, SportsEvent, SurgicalProcedure, TaxiReservation, TheaterEvent, TherapeuticProcedure, Ticket, TouristTrip, TrainReservation, TrainTrip, Trip, TVSeason, VisualArtsEvent
+
+/* Game */
+Game, VideoGame, VideoGameClip, VideoGameSeries
+
+/* General */
+Blog, BlogPosting, LiveBlogPosting, BusOrCoach, Car, CreativeWork, FloorPlan, Guide, HyperToc, HyperTocEntry, LearningResource, Motorcycle, MotorizedBicycle, Newspaper, Periodical, Product, ProductGroup, PronounceableText, Quotation, SolveMathAction, SpecialAnnouncement, Vehicle
+
+/* Maps */
+AdministrativeArea, AutomatedTeller, Beach, BodyOfWater, Bridge, BusStop, Canal, Cemetery, City, Continent, Country, DefinedRegion, GeoCoordinates, LakeBodyOfWater, LandmarksOrHistoricalBuildings, Map, Mountain, OceanBodyOfWater, Park, ParkingMap, Playground, Pond, PostalAddress, PublicToilet, Reservoir, RiverBodyOfWater, SeaBodyOfWater, SeatingMap, State, TouristDestination, TransitMap, VenueMap, Volcano, Waterfall
+
+/* Media */
+Clip, Episode, ImageGallery, MediaGallery, MediaReview, Movie, MovieClip, MovieSeries, TVClip, TVEpisode, TVSeries, VideoGallery
+
+/* Movie */
+DVDFormat, LaserDiscFormat
+
+/* Music */
+AlbumRelease, CassetteFormat, CDFormat, CompilationAlbum, DigitalAudioTapeFormat, DJMixAlbum, DemoAlbum, EPRelease, LiveAlbum, MixtapeAlbum, MusicAlbum, MusicComposition, MusicRecording, MusicRelease, RemixAlbum, SingleRelease, SoundtrackAlbum, SpokenWordAlbum, StudioAlbum, VinylFormat
+
+/* Organization */
+Accommodation, AccountingService, AdultEntertainment, Airline, Airport, AmusementPark, AnimalShelter, Apartment, ApartmentComplex, Aquarium, ArchiveOrganization, ArtGallery, Attorney, AutoBodyShop, AutoDealer, AutomotiveBusiness, AutoPartsStore, AutoRental, AutoRepair, AutoWash, Bakery, BankOrCreditUnion, BarOrPub, BeautySalon, BedAndBreakfast, BikeStore, BoatTerminal, BookStore, BowlingAlley, Brewery, BuddhistTemple, BusStation, CafeOrCoffeeShop, Campground, CampingPitch, Casino, CatholicChurch, ChildCare, Church, CityHall, CivicStructure, ClothingStore, CollegeOrUniversity, ComedyClub, CommunityHealth, ComputerStore, Consortium, ContactPoint, ConvenienceStore, Corporation, Courthouse, Crematorium, DanceGroup, DaySpa, DefenceEstablishment, Dentist, DepartmentStore, Dermatology, DiagnosticLab, DietNutrition, Distillery, DryCleaningOrLaundry, EducationalOrganization, Electrician, ElectronicsStore, ElementarySchool, Embassy, Emergency, EmergencyService, EmploymentAgency, EntertainmentBusiness, EventVenue, ExerciseGym, FastFoodRestaurant, FinancialService, FireStation, Florist, FoodEstablishment, FundingAgency, FundingScheme, FurnitureStore, GardenStore, GasStation, GatedResidenceCommunity, GeneralContractor, Geriatric, GolfCourse, GovernmentBuilding, GovernmentOffice, GovernmentOrganization, GroceryStore, Gynecologic, HairSalon, HardwareStore, HealthAndBeautyBusiness, HealthClub, HearingImpairedSupported, HighSchool, HinduTemple, HobbyShop, HomeAndConstructionBusiness, HomeGoodsStore, Hospital, Hostel, Hotel, HotelRoom, House, HousePainter, HVACBusiness, IceCreamShop, InsuranceAgency, InternetCafe, JewelryStore, JobPosting, LegalService, LegislativeBuilding, Library, LiquorStore, LocalBusiness, Locksmith, LodgingBusiness, MedicalBusiness, MedicalClinic, MedicalOrganization, MeetingRoom, MensClothingStore, MiddleSchool, Midwifery, MobilePhoneStore, Mosque, Motel, MotorcycleDealer, MotorcycleRepair, MovieRentalStore, MovieTheater, MovingCompany, Museum, MusicGroup, MusicStore, MusicVenue, NailSalon, NewsMediaOrganization, NGO, NightClub, Notary, Nursing, Obstetric, OfficeEquipmentStore, Oncologic, Optician, Optometric, Otolaryngologic, OutletStore, ParkingFacility, PawnShop, Pediatric, PerformingArtsTheater, PerformingGroup, PetStore, Pharmacy, Physician, Physiotherapy, PlaceOfWorship, PlasticSurgery, Plumber, Podiatric, PoliceStation, PostOffice, Preschool, PrimaryCare, ProfessionalService, Psychiatric, PublicHealth, PublicSwimmingPool, RadioStation, RealEstateAgent, RecyclingCenter, ResearchOrganization, Residence, Resort, Restaurant, RoofingContractor, Room, RVPark, School, SchoolDistrict, SelfStorage, ShoeStore, ShoppingCenter, SingleFamilyResidence, SkiResort, SportingGoodsStore, SportsActivityLocation, SportsClub, SportsOrganization, SportsTeam, StadiumOrArena, Store, SubwayStation, Suite, Synagogue, TattooParlor, TaxiStand, TelevisionStation, TennisComplex, TheaterGroup, TireShop, TollFree, TouristAttraction, TouristInformationCenter, ToyStore, TrainStation, TravelAgency, VeterinaryCare, WebSite, WholesaleStore, Winery, WorkersUnion, Zoo
+
+/* Radio */
+RadioEpisode, RadioSeries
+
+/* Recipe */
+Recipe
+
+/* Source */
+Code, SoftwareSourceCode
+
+/* Subscription */
+MediaSubscription
